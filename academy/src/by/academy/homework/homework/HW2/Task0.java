@@ -29,7 +29,7 @@ public class Task0 {
 			System.out.println(arr[i]);
 		}
 		int result = pairs(k, arr);
-		System.out.println(result);
+		System.out.println(result );
 
 		scanner.close();
 	}

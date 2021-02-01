@@ -11,7 +11,7 @@ public class Task3 {
 		String str = sc.nextLine();
 		String str2 = sc.nextLine();
 		if (str.length() % 2 != 0 || str2.length() % 2 != 0) {
-			System.out.println("Некорректный ввод!");
+			System.out.println("Некорректный ввод! ");
 			return;
 		}
 		String result = str.substring(0, str.length() / 2) + str2.substring(str2.length() / 2, str2.length());
