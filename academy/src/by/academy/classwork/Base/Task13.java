@@ -1,4 +1,4 @@
-package by.academy.classwork1;
+package by.academy.classwork.Base;
 
 public class Task13 {
 
@@ -6,7 +6,7 @@ public class Task13 {
 //		12. Найти произведение двузначных нечетных чисел кратных 13.
 
 		for (int i = 10; i < 100; i++) {
-			if ((i % 2 != 0) || (i % 13 == 0)) {
+			if ((i % 2 != 0) && (i % 13 == 0)) {
 
 				System.out.println(i);
 

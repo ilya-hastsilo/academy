@@ -1,4 +1,4 @@
-package by.academy.classwork1;
+package by.academy.classwork.Base;
 
 public class Task1 {
 

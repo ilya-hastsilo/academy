@@ -1,8 +1,8 @@
-package by.academy.classwork1;
+package by.academy.classwork.mass;
 
 import java.util.Random;
 
-public class Mass1 {
+public class Mass2 {
 
 	public static void main(String[] args) {
 		int[] array = new int[10];
