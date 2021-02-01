@@ -11,9 +11,9 @@ public class Task1 {
 		System.out.print("Введите вторую строку: ");
 		String str2 = sc.nextLine();
 		if (Strings(str, str2) == true) {
-			System.out.println("Результат:True");
+			System.out.println("Результат: True");
 		} else {
-			System.out.println("Результат:False");
+			System.out.println("Результат: False");
 		}
 		sc.close();
 	}

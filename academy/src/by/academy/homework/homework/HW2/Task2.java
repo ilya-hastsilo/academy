@@ -8,7 +8,7 @@ public class Task2 {
 		Scanner sc = new Scanner(System.in);
 		int res = 0;
 
-		System.out.println("¬ведите количество слов:  ");
+		System.out.println("¬ведите количество слов:");
 		int num = 0;
 		num = sc.nextInt();
 

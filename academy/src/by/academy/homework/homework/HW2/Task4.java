@@ -29,7 +29,7 @@ public class Task4 {
 				System.out.println(arr[i + v]);
 			}
 			v += kart;
-			System.out.println("\n" );
+			System.out.println("\n");
 		}
 		sc.close();
 	}
