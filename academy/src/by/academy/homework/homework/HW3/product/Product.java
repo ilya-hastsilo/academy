@@ -1,22 +1,27 @@
-package by.academy.homework.homework.HW3;
+package by.academy.homework.homework.HW3.product;
 
 public abstract class Product {
+
 	protected String name;
 	protected double price;
 	protected String manufacture;
 	protected int quantity;
-	
 
 	public Product() {
 		super();
 	}
 
-	public Product(String name, Double price, String manufacture, Integer quantity) {
+	public Product(String name, double price, String manufacture, int quantity) {
 		this.name = name;
 		this.price = price;
 		this.manufacture = manufacture;
 		this.quantity = quantity;
+	}
 
+	public abstract double discount();
+
+	public double calcFinalPrice() {
+		return quantity * price * discount();
 	}
 
 	public String getName() {
@@ -35,14 +40,6 @@ public abstract class Product {
 		this.price = price;
 	}
 
-	public String getManufacture() {
-		return manufacture;
-	}
-
-	public void setManufacture(String manufacture) {
-		this.manufacture = manufacture;
-	}
-
 	public int getQuantity() {
 		return quantity;
 	}
@@ -51,9 +48,11 @@ public abstract class Product {
 		this.quantity = quantity;
 	}
 
-	protected abstract double discount();
+	public String getManufacture() {
+		return manufacture;
+	}
 
-	protected double calcFinalPrice() {
-		return price * quantity * discount();
+	public void setManufacture(String manufacture) {
+		this.manufacture = manufacture;
 	}
 }

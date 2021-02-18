@@ -1,4 +1,4 @@
-package by.academy.homework.homework.HW3;
+package by.academy.homework.homework.HW3.product;
 
 public class Bread extends Product {
 
@@ -9,8 +9,8 @@ public class Bread extends Product {
 
 	@Override
 	public double discount() {
-		if (name.equals("Vodar")) {
-			return 0.8;
+		if (getQuantity() > 5) {
+			return 0.9;
 		}
 		return 1.0;
 	}
