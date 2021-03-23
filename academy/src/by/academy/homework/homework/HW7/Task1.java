@@ -16,5 +16,5 @@ public class Task1 {
 
 	private static List<Long> gen(int seed, int size) {
 		return Stream.generate(() -> (long) new Random().nextInt(seed + 1)).limit(size).collect(Collectors.toList());
-	}
+	} 
 }
